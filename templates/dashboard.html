@@ -1,0 +1,11 @@
+
+
+<h1>Dashboard</h1>
+<p>Welcome, {{ publisher.name }}!</p>
+<p>Your ad codes:</p>
+<ul>
+{% for ad_code in publisher.ad_codes %}
+<li>{{ ad_code }}</li>
+{% endfor %}
+</ul>
+
